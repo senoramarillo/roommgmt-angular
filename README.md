@@ -5,7 +5,7 @@
 # Architecture
 <img src="https://image.ibb.co/bDRu8x/Image2.png" width="350px" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+[Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
 ## Development server
 
