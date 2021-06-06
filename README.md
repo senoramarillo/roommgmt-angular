@@ -1,6 +1,15 @@
-# BuildingManager
+# Building Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+<img src="https://image.ibb.co/nMxqgH/Image3.png" width="500px" />
+
+# Architecture
+<img src="https://image.ibb.co/bDRu8x/Image2.png" width="350px" />
+
+[Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+
+## Spring Boot Backend
+
+Run `java -jar roommgmt-backend.jar`. Navigate to `http://localhost:8800/`.
 
 ## Development server
 
