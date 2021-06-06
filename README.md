@@ -2,6 +2,10 @@
 
 <img src="https://image.ibb.co/nMxqgH/Image3.png" width="500px" />
 
+[Angular Frontend Repository](https://github.com/senoramarillo/roommgmt-frontend)
+
+[Spring Boot Backend Repository](https://github.com/senoramarillo/roommgmt-backend)
+
 # Architecture
 <img src="https://image.ibb.co/bDRu8x/Image2.png" width="350px" />
 
