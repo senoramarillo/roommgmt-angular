@@ -1,11 +1,22 @@
 # Building Manager
 
-<img src="https://image.ibb.co/nMxqgH/Image3.png" width="500px" />
+<img src="https://i.imgur.com/YkRNXNp.png" width="500px" />
+
+[Angular Frontend Repository](https://github.com/senoramarillo/roommgmt-frontend)
+
+[Spring Boot Backend Repository](https://github.com/senoramarillo/roommgmt-backend)
 
 # Architecture
+          
 <img src="https://image.ibb.co/bDRu8x/Image2.png" width="350px" />
 
+<img src="https://i.imgur.com/OAwZXKy.png" width="800px" />
+
 [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+
+# Screenshot
+
+<img src="https://i.imgur.com/yv4wIof.jpg" width="500px" />
 
 ## Spring Boot Backend
 
