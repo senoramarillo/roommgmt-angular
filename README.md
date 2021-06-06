@@ -7,6 +7,9 @@
 [Spring Boot Backend Repository](https://github.com/senoramarillo/roommgmt-backend)
 
 # Architecture
+
+<img src="https://i.imgur.com/OAwZXKy.png" width="350px" />
+          
 <img src="https://image.ibb.co/bDRu8x/Image2.png" width="350px" />
 
 [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
