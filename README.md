@@ -2,6 +2,10 @@
 
 <img src="https://image.ibb.co/nMxqgH/Image3.png" width="500px" />
 
+# Screenshot
+
+<img src="https://i.imgur.com/yv4wIof.jpg" width="500px" />
+
 # Architecture
 <img src="https://image.ibb.co/bDRu8x/Image2.png" width="350px" />
 
