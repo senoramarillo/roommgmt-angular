@@ -8,7 +8,7 @@
 
 # Architecture
 
-<img src="https://i.imgur.com/OAwZXKy.png" width="500px" />
+<img src="https://i.imgur.com/OAwZXKy.png" width="800px" />
           
 <img src="https://image.ibb.co/bDRu8x/Image2.png" width="350px" />
 
