@@ -14,7 +14,7 @@
 
 [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
-# Screenshot
+# Demo
 
 <img src="https://i.imgur.com/yv4wIof.jpg" width="500px" />
 
