@@ -1,6 +1,6 @@
 # Building Manager
 
-<img src="https://i.imgur.com/YkRNXNp.png" width="500px" />
+<img src="https://i.imgur.com/YkRNXNp.png" width="500" />
 
 [Angular Frontend Repository](https://github.com/senoramarillo/roommgmt-frontend)
 
@@ -13,6 +13,8 @@
 <img src="https://i.imgur.com/OAwZXKy.png" width="800px" />
 
 [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+
+[Spring Boot](https://spring.io/projects/spring-boot) version 2.5.0.
 
 # Demo
 
