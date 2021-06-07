@@ -11,6 +11,12 @@ notifications:
 env:
   global: CODECOV_TOKEN=$CODECOV_TOKEN
 
+ sources:
+      - google-chrome
+  packages:
+      - dpkg
+      - google-chrome-stable
+
 addons:
   apt:
     sources:
@@ -29,8 +35,7 @@ script:
   - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
 
 before_deploy:
-  - npm run build -- --prod --base-href /IP3/
-  - cp dist/IP3/index.html dist/IP3/404.html
+  - npm run build
 
 deploy:
   provider: pages
