@@ -11,17 +11,13 @@ notifications:
 env:
   global: CODECOV_TOKEN=$CODECOV_TOKEN
 
- sources:
-      - google-chrome
-  packages:
-      - dpkg
-      - google-chrome-stable
-
 addons:
   apt:
+    update: true
     sources:
       - google-chrome
     packages:
+      - dpkg
       - google-chrome-stable
 
 cache:
