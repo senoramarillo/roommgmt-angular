@@ -1,23 +1,29 @@
 language: node_js
 node_js:
-  - 14.17.0
+  - "14.17.0"
 
-addons:
-  chrome: stable
+dist: trusty
+sudo: false
+
 env:
   global: CODECOV_TOKEN=$CODECOV_TOKEN
 
-notifications:
-  email: false
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
 
-cache: yarn
+cache:
+  directories:
+    - ./node_modules
 
 install:
-  - yarn install
+  - npm install
 
 script:
-  - yarn test
-  - yarn run build
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
 
 deploy:
   provider: pages
