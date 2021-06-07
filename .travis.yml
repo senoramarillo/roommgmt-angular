@@ -2,6 +2,11 @@ language: node_js
 node_js:
   - 14.17.0
 
+addons:
+  chrome: stable
+env:
+  global: CODECOV_TOKEN=$CODECOV_TOKEN
+
 notifications:
   email: false
 
@@ -20,3 +25,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   on:
     branch: main
+
+after_success:
+  - codecov
