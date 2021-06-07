@@ -1,4 +1,4 @@
-# Building Manager
+# Room Management
 
 <img src="https://i.imgur.com/YkRNXNp.png" width="500" />
 
