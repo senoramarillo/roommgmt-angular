@@ -1,6 +1,6 @@
 # Building Manager
 
-<img src="https://i.imgur.com/HdomqRH.png" width="300" />
+<img src="https://i.imgur.com/YkRNXNp.png" width="500" />
 
 [Angular Frontend Repository](https://github.com/senoramarillo/roommgmt-frontend)
 
