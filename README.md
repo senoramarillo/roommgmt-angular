@@ -14,7 +14,7 @@
 
 # Demo
 
-<img src="https://i.imgur.com/yv4wIof.jpg" width="500px" />
+<img src="https://i.imgur.com/yv4wIof.jpg" width="850px" />
 
 ## Spring Boot Backend
 
