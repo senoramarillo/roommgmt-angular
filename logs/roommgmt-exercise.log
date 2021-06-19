@@ -1,0 +1,210 @@
+2021-06-19 00:10:11,407 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Starting RoommgmtApplication using Java 11.0.11 on LHIND-N211206 with PID 11060 (C:\PatrisDev\training-workspace\roommgmt-react\target\classes started by U737700 in C:\PatrisDev\training-workspace\roommgmt-react)
+2021-06-19 00:10:11,410 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : No active profile set, falling back to default profiles: default
+2021-06-19 00:10:13,213 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 00:10:13,305 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2021-06-19 00:10:13,735 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,736 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,737 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,739 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,741 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,744 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,744 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,760 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,763 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:13,765 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:10:14,153 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8088 (http)
+2021-06-19 00:10:14,165 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-06-19 00:10:14,167 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 00:10:14,170 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-06-19 00:10:14,171 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-19 00:10:14,171 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-19 00:10:14,190 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-06-19 00:10:14,330 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-06-19 00:10:14,330 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2836 ms
+2021-06-19 00:10:15,038 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-06-19 00:10:15,222 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-06-19 00:10:16,148 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 00:10:17,348 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-19 00:10:18,018 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8088 (http) with context path ''
+2021-06-19 00:10:18,366 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Started RoommgmtApplication in 8.107 seconds (JVM running for 10.841)
+2021-06-19 00:10:18,375 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-19 00:10:18,377 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-19 00:10:18,567 INFO  [RMI TCP Connection(3)-192.168.2.105] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-19 00:11:03,917 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:11:04,008 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:11:50,019 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:11:50,030 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:11:53,960 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:11:54,013 INFO  [http-nio-8088-exec-6] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:12:48,018 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:12:48,030 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:13:00,018 INFO  [http-nio-8088-exec-9] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:13:00,098 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:16:55,034 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:16:55,058 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:17:25,015 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:17:25,331 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:17:51,017 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:17:51,026 INFO  [http-nio-8088-exec-6] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:17:59,020 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:17:59,111 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:18:41,030 INFO  [http-nio-8088-exec-9] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:18:41,343 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:27:16,861 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Starting RoommgmtApplication using Java 11.0.11 on LHIND-N211206 with PID 4436 (C:\PatrisDev\training-workspace\roommgmt-react\target\classes started by U737700 in C:\PatrisDev\training-workspace\roommgmt-react)
+2021-06-19 00:27:16,864 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : No active profile set, falling back to default profiles: default
+2021-06-19 00:27:17,871 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 00:27:17,917 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2021-06-19 00:27:18,164 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,165 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,165 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,167 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,169 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,171 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,171 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,181 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,184 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,184 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 00:27:18,332 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8088 (http)
+2021-06-19 00:27:18,339 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-06-19 00:27:18,339 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 00:27:18,340 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-06-19 00:27:18,340 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-19 00:27:18,340 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-19 00:27:18,343 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-06-19 00:27:18,436 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-06-19 00:27:18,436 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1533 ms
+2021-06-19 00:27:18,781 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-06-19 00:27:18,880 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-06-19 00:27:19,432 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 00:27:20,148 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-19 00:27:20,489 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8088 (http) with context path ''
+2021-06-19 00:27:20,710 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Started RoommgmtApplication in 4.321 seconds (JVM running for 5.718)
+2021-06-19 00:27:20,716 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-19 00:27:20,718 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-19 00:27:21,826 INFO  [RMI TCP Connection(3)-192.168.2.105] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-19 00:27:35,396 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:29:14,037 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:29:18,209 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:35:07,052 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:40:27,145 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:43:43,069 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:44:19,095 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:44:41,048 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:45:18,049 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:46:12,061 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:46:21,043 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:46:34,036 INFO  [http-nio-8088-exec-6] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:49:46,428 INFO  [http-nio-8088-exec-9] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:54:42,408 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:58:56,101 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 00:59:16,076 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:00:26,058 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:00:58,094 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:02:16,041 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:02:33,059 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:03:26,088 INFO  [http-nio-8088-exec-6] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:03:51,122 INFO  [http-nio-8088-exec-9] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:04:21,058 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:04:26,071 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:04:56,078 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:05:23,074 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:05:48,835 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:07:04,057 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:07:23,733 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:12:29,075 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:12:32,394 INFO  [http-nio-8088-exec-6] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:12:42,767 INFO  [http-nio-8088-exec-9] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:12:58,053 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:13:53,056 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:13:56,548 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:14:14,694 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:14:41,118 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:22:06,072 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:22:11,861 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:24:08,042 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:25:35,404 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Starting RoommgmtApplication using Java 11.0.11 on LHIND-N211206 with PID 18220 (C:\PatrisDev\training-workspace\roommgmt-react\target\classes started by U737700 in C:\PatrisDev\training-workspace\roommgmt-react)
+2021-06-19 01:25:35,407 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : No active profile set, falling back to default profiles: default
+2021-06-19 01:25:36,365 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 01:25:36,410 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2021-06-19 01:25:36,662 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,663 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,664 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,665 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,668 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,670 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,671 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,681 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,684 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,684 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 01:25:36,907 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8088 (http)
+2021-06-19 01:25:36,914 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-06-19 01:25:36,915 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 01:25:36,916 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-06-19 01:25:36,916 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-19 01:25:36,917 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-19 01:25:36,920 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-06-19 01:25:37,021 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-06-19 01:25:37,021 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1566 ms
+2021-06-19 01:25:37,459 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-06-19 01:25:37,554 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-06-19 01:25:38,080 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 01:25:38,798 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-19 01:25:39,111 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8088 (http) with context path ''
+2021-06-19 01:25:39,313 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Started RoommgmtApplication in 4.428 seconds (JVM running for 6.234)
+2021-06-19 01:25:39,320 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-19 01:25:39,322 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-19 01:25:40,650 INFO  [RMI TCP Connection(2)-192.168.2.105] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-19 01:26:34,118 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:26:36,846 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:26:56,549 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:27:22,450 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:27:26,329 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:27:46,141 INFO  [http-nio-8088-exec-6] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:27:53,963 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:28:16,675 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:28:18,898 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:28:34,714 INFO  [http-nio-8088-exec-9] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:30:18,070 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 01:30:23,376 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:22:52,136 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Starting RoommgmtApplication using Java 11.0.11 on LHIND-N211206 with PID 6428 (C:\PatrisDev\training-workspace\roommgmt-angular\target\classes started by U737700 in C:\PatrisDev\training-workspace\roommgmt-angular)
+2021-06-19 10:22:52,141 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : No active profile set, falling back to default profiles: default
+2021-06-19 10:22:53,348 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 10:22:53,402 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2021-06-19 10:22:53,717 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,718 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,719 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,720 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,722 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,724 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,725 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,737 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,739 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,740 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-19 10:22:53,954 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8088 (http)
+2021-06-19 10:22:53,962 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-06-19 10:22:53,962 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 10:22:53,963 INFO  [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-06-19 10:22:53,963 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-19 10:22:53,964 INFO  [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-19 10:22:53,966 INFO  [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-06-19 10:22:54,067 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-06-19 10:22:54,067 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1888 ms
+2021-06-19 10:22:54,472 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2021-06-19 10:22:54,600 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2021-06-19 10:22:55,324 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 10:22:56,244 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-19 10:22:56,584 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8088 (http) with context path ''
+2021-06-19 10:22:56,799 INFO  [main] de.dlh.lhind.exercise.roommgmt.RoommgmtApplication : Started RoommgmtApplication in 5.125 seconds (JVM running for 6.781)
+2021-06-19 10:22:56,805 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-19 10:22:56,807 INFO  [main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-19 10:22:57,132 INFO  [RMI TCP Connection(1)-192.168.2.105] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-19 10:23:42,446 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:24:18,417 INFO  [http-nio-8088-exec-2] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:24:20,818 INFO  [http-nio-8088-exec-4] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:24:45,424 INFO  [http-nio-8088-exec-5] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:25:01,557 INFO  [http-nio-8088-exec-3] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:26:01,657 INFO  [http-nio-8088-exec-7] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:26:21,019 INFO  [http-nio-8088-exec-8] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:26:54,068 INFO  [http-nio-8088-exec-9] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:27:27,515 INFO  [http-nio-8088-exec-10] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
+2021-06-19 10:27:37,418 INFO  [http-nio-8088-exec-1] de.dlh.lhind.exercise.roommgmt.controller.BuildingController : Get All Buildings
