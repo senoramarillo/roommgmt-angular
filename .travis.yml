@@ -1,44 +1,26 @@
-dist: trusty
-sudo: false
-
-language: node_js
-node_js:
-  - "14"
-
-notifications:
-  email: false
-
-env:
-  global: CODECOV_TOKEN=$CODECOV_TOKEN
-
-addons:
-  apt:
-    update: true
-    sources:
-      - google-chrome
-    packages:
-      - dpkg
-      - google-chrome-stable
-
-cache:
-  directories:
-    - ./node_modules
-
-install:
-  - npm install
-
-script:
-  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
-
-before_deploy:
-  - npm run build
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  on:
-    branch: main
-
-after_success:
-  - codecov
+#language: java
+#sudo: true
+#jdk:
+#- oraclejdk11
+#addons:
+#  sonarcloud:
+#    organization:
+#    token:
+#      secure:
+#deploy:
+#  provider: heroku
+#  app:
+#  api_key:
+#    secure:
+#  on:
+#    branch: master
+#notifications:
+#  email:
+#    on_success: never
+#    on_failure: never
+#script:
+#- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=
+#before_install:
+#- chmod +x mvnw
+#after_success:
+#- bash <(curl -s https://codecov.io/bash)
