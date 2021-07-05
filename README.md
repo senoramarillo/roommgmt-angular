@@ -1,4 +1,4 @@
-# Room Management (Angular + Spring Boot)
+# Room Management
 
 <img src="https://i.imgur.com/YkRNXNp.png" width="500" />
 
